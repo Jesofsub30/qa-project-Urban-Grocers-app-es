@@ -28,5 +28,3 @@ def post_new_client_kit(kit_body):
                          headers = data.headers_new_kit)
 print (response.status_code)
 print (response.json())
-
-
