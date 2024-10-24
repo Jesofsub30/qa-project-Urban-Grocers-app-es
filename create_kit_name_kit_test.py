@@ -64,3 +64,4 @@ def test_create_kit_use_number_type_in_first_name_get_unsuccessfully_response():
     kit_body = get_kit_body(123)
     response = sender_stand_request.post_new_client_kit(kit_body)
     assert response.status_code == 400
+
