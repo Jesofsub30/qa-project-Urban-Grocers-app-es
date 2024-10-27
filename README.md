@@ -1,8 +1,17 @@
-# Proyecto Urban Grocers 
+# Proyecto Urban Grocers
+José de Jesus Rosas Uribe, 15vo grupo, Sprint 7
+
 Se desarrollo una serie de pruebas, para la crecaión de kit dentro de un usuario en específico. 
 Se realizaron una serie de 9 pruebas divididas en: 5 pruebas positivas y 4 negativas con base en la siguiente lista de comprobación:
 # Lista de comprobación:
 ![image](https://github.com/user-attachments/assets/615ffbfa-4a19-4fb9-9955-01fdb3fbc3e9)
+
+# Pasos para ejecutar las pruebas
+- Ejecutar las pruebas desde el proyecto a traves de la terminal de Pycharm. Acceso escribiendo:
+pytest create_kit_name_kit_test.py en la terminal.
+-Se ejeuctan las pruebas a traves de la interfaz de pycharm, dando clic en el boton con el triangulo verde en la parte superior de la ventana de trabajo o presionando en el teclado Shift+F10.
+- Tambien se pueden ejecutar las pruebas individualmente dando clic el boton verde al costado izquierdo de cada una de las pruebas.
+
 # Crear nuevo usuario
 Para la ejecución de estas pruebas primero se debe crear un usuario nuevo con base en los siguientes parametros
 
@@ -72,3 +81,12 @@ Creacion exitosa de un kit:
    Requests
    
    Pytest
+   
+En caso de no estar instalados buscar los paquetes a traves de Python Packages e instalar la version mas reciente.
+
+# Recursos 
+Documentación
+-URL + /docs/
+   - "Main user"---- "creacion de cuenta"
+   - "Main kits ---- "Crear un kit"
+
