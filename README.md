@@ -9,7 +9,9 @@ Se realizaron una serie de 9 pruebas divididas en: 5 pruebas positivas y 4 negat
 # Pasos para ejecutar las pruebas
 - Ejecutar las pruebas desde el proyecto a traves de la terminal de Pycharm. Acceso escribiendo:
 pytest create_kit_name_kit_test.py en la terminal.
--Se ejeuctan las pruebas a traves de la interfaz de pycharm, dando clic en el boton con el triangulo verde en la parte superior de la ventana de trabajo o presionando en el teclado Shift+F10.
+
+- Se ejecutan las pruebas a traves de la interfaz de pycharm, dando clic en el boton con el triangulo verde en la parte superior de la ventana de trabajo o presionando en el teclado Shift+F10.
+
 - Tambien se pueden ejecutar las pruebas individualmente dando clic el boton verde al costado izquierdo de cada una de las pruebas.
 
 # Crear nuevo usuario
