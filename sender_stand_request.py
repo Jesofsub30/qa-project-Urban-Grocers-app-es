@@ -12,19 +12,15 @@ def post_new_user(body):
                   headers=data.headers)
 
 response = post_new_user(data.user_body);
-print(response.status_code)
-print(response.json())
+
 
 
 def post_new_client_kit(kit_body):
     create_user = post_new_user(data.user_body)
-    auth_token = create_user.json()["authToken"]
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {auth_token}"
-    }
+    auth_token = post_new_user(data.headers_new_kit).json()["authToken"]
+    headers = data.headers.copy()
+    headers["Authorization"] = f"Bearer {auth_token}"
     return requests.post(C.URL_SERVICE+C.KITS_PATH,
                          json = kit_body,
-                         headers = data.headers_new_kit)
-print (response.status_code)
-print (response.json())
+                         headers = headers)
+
