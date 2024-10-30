@@ -40,7 +40,7 @@ kit_body_6 = " A Aaa "
 kit_body_7 = "123"
 
 #Prueba 8
-kit_body_8 = ""
+kit_body_8 = None
 
 #Prueba 9
 kit_body_9 = 123
