@@ -55,11 +55,9 @@ def test_create_kit_contain_numbers_in_name_get_success_response():
 
 #Prueba numero 8. El parametro no se pasa en la solicitud
 def test_create_kit_no_name_character_in_name_get_unsuccessfully_response():
-    negative_assert(kit_body_8)
+    negative_assert(data.kit_body_8)
 
 #Prueba numero 9. Se ha pasado un tipo de parámetro diferente (número):
 def test_create_kit_use_number_type_in_first_name_get_unsuccessfully_response():
-    kit_body = data.kit_body_9
-    response = sender_stand_request.post_new_client_kit(kit_body)
-    assert response.status_code == 400
+    negative_assert(data.kit_body_9)
 
